@@ -15,7 +15,7 @@ $(alibrary) : $(others)
 	$(AR) -r $(alibrary) $(others)
 
 # generate objects
--include $(sources:.cpp=.d)
+include $(sources:.cpp=.d)
 
 # automatically generate dependencies
 %.d:%.cpp
