@@ -2,7 +2,7 @@
 #define _CMDUI_H_
 
 #include "student.h"
-
+//Modified
 void print_stars_line();
 void welcome();
 void prompt();
